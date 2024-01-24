@@ -426,7 +426,7 @@
                 <p class="text-custom-text text-sm lg:text-base">Dit amet consectetur. Condimentum dignissim adipiscing
                     aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
-            <div class="border-t pt-6 pb-6 lg:pt-12 lg:pb-24  border-dashed">
+            <div class=" pt-6 pb-6 lg:pt-12 lg:pb-24 border-t  border-dashed">
                 <div class=" lg:flex gap-10">
                     <div class="flex justify-center items-center">
                         <img src="Images/11.png" alt="">
@@ -505,18 +505,19 @@
         <!-- Clients Question section ends -->
 
         <!-- Contact section start -->
-        <section>
-            <div class="mx-auto max-w-xl text-center my-6">
+        <section class="border-t  border-dashed">
+            <div class="mx-auto max-w-xl text-center my-6 ">
                 <h2 class="text-2xl lg:text-4xl font-extrabold mb-6">Get In Touch</h2>
-                <p class="text-custom-text text-sm lg:text-base">Dit amet consectetur. Condimentum dignissim adipiscing
+                <p class="text-custom-text text-sm lg:text-base text-center">Dit amet consectetur. Condimentum dignissim adipiscing
                     aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
-            <div class="grid grid-cols-5 gap-6">
-                <div class="border rounded-2xl col-span-2">
+           <div class=" border-t  border-dashed">
+            <div class="grid grid-cols-1 lg:grid-cols-5 gap-6 pt-6 lg:pt-12">
+                <div class="border rounded-2xl lg:col-span-2">
                     <div class="p-6 space-y-4 lg:space-y-6 lg:p-12">
                         <!-- contact 1 -->
                         <div class="bg-lime-50 rounded-2xl">
-                            <div class="max-w-72 p-6 lg:px-8 lg:py-12 ">
+                            <div class=" p-6 lg:px-8 lg:pt-12 lg:pb-8">
                                 <div class="pb-6">
                                     <img src="Images/Group 1171275317.png" alt="">
                                 </div>
@@ -527,39 +528,76 @@
                         </div>
                         <!-- contact 2 -->
                         <div class="bg-yellow-50 rounded-2xl">
-                            <div class="max-w-72 p-6 lg:px-8 lg:py-12 ">
+                            <div class=" p-6 lg:px-8 lg:pt-12 lg:pb-8 ">
                                 <div class="pb-6">
                                     <img src="Images/Group 1171275318.png" alt="">
                                 </div>
-                                <p class="pb-3">Email : 
-                                    
+                                <p class="pb-3">Email :
+
                                 </p>
                                 <p class="text-lg font-extrabold"> hockeys@support.com</p>
                             </div>
                         </div>
                         <!-- contact 3 -->
                         <div class="bg-blue-50 rounded-2xl">
-                            <div class="max-w-72 p-6 lg:px-8 lg:py-12 ">
+                            <div class=" p-6 lg:px-8 lg:pt-12 lg:pb-8 ">
                                 <div class="pb-6">
                                     <img src="Images/Group 1171275321.png" alt="">
                                 </div>
-                                <p class="pb-3">Location : 
-                                    
+                                <p class="pb-3">Location :
+
                                 </p>
                                 <p class="text-lg font-extrabold"> 152/1 Mohakhali Wireless Gate</p>
                             </div>
                         </div>
-                        
-                        
+
+
                     </div>
                 </div>
-                <div class="h-96  bg-yellow-500 col-span-3">
-                    <div class="grid grid-cols-2 gap-6">
-                        <label for="text"></label>
-                        <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
-                    </div>
+                <!-- from start -->
+                <div class="col-span-1 lg:col-span-3">
+                    <from class="  space-y-4 lg:grid  lg:grid-cols-2 lg:gap-6">
+
+                        <!-- input-1 -->
+                        <div class="flex flex-col space-y-4 pt-4">
+                            <label for="name" class="text-xl font-bold">Your Name</label>
+                            <input type="text" id="name" placeholder="Enter your full name"
+                                class="bg-[#13131808] py-5 pl-5 rounded-lg w-full " />
+                        </div>
+                          <!-- input-2 -->
+                        <div class="flex flex-col space-y-4">
+                            <label for="myMale" class="text-xl font-bold">Your Email</label>
+                            <input type="mail" id="myMale" placeholder="Enter your mail"
+                                class="bg-[#13131808] py-5 pl-5 rounded-lg w-full " />
+                        </div>
+                          <!-- input-3 -->
+                        <div class="flex flex-col space-y-4">
+                            <label for="subject" class="text-xl font-bold">Subject</label>
+                            <input type="subject" id="subject" placeholder="Enter your subject"
+                                class="bg-[#13131808] py-5 pl-5 rounded-lg w-full" />
+                        </div>
+                          <!-- input-4 -->
+                        <div class="flex flex-col space-y-4">
+                            <label for="mobile" class="text-xl font-bold">Phone Number</label>
+                            <input type="tel" id="mobile" placeholder="Enter your phone number"
+                                class="bg-[#13131808] py-5 pl-5 rounded-lg w-full " />
+                        </div>
+                        <!-- textarea -->
+                        <div class=" col-span-2">
+                            <div class="grid space-y-4 ">
+                                <label for="massage" class="text-xl font-bold">Message</label>
+                                <textarea  id="massage" placeholder="Write your message " class="bg-[#13131808] col-span-2 rounded-lg pt-6 pl-6 h-52 lg:h-full " cols="30"
+                                rows="16"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-span-2">
+                            <button class="w-full btn bg-custom-bg border-none text-white text-xl font-bold px-5">Send Message</button>
+                        </div>
+                    </from>
                 </div>
+                <!-- from ends -->
             </div>
+           </div>
         </section>
         <!-- Contact section ends -->
 
